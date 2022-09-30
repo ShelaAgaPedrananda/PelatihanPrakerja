@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Latihan1</title>
+    <!-- INTERNAL STYLE = reusable, terpisah antara html dan css, tetapi memakan baris . kapan kita harus make internal style, ketika pengumpulan hanya html saja -->
+    <style>
+      h1 {
+        color: white;
+        background-color: aquamarine;
+      }
+      #judul4 {
+        color: greenyellow;
+        background-color: brown;
+      }
+      .bg-yelow {
+        background-color: yellow;
+      }
+    </style>
+    <!-- EXTERNAL STYLE  = File css dan html nya terpisah, kita juga bisa menggunakan style css pada file html yang berbeda (paling disarankan)-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- INLINE STYLE = terlalu banyak kekurangan. jika ada perulangan kita harus copas berkali kali dan banyal memakan tempat. kelebihan nya prioritas nya paling tinggi-->
+    <h1 style="color: white; background-color: aquamarine">JUDUL</h1>
+    <h1 class="bg-yelow">JUDUL 2</h1>
+    <h1 class="bg-yelow text-large">JUDUL 3</h1>
+    <h1 id="judul4">JUDUL 4</h1>
+  </body>
+</html>

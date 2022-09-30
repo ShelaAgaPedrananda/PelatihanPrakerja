@@ -1,0 +1,16 @@
+IF "hungry"
+    DO "eat"
+DISPLAY "I am happy"
+
+
+========================================
+
+SIMPAN "nilai" dengan nilai berapapun
+
+JIKA "nilai" < 70
+    LAKUKAN "belajar lebih giat"
+JIKA SALAH
+    LAKUKAN "jajan"
+LAKUKAN "melanjutkan kegiatan"
+
+==========================================
