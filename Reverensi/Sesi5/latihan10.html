@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <label>Kondisi</label>
+    <input type="text" id="kondisi" />
+    <br />
+    <button onclick="cekLapar()">Cek Lapar</button>
+    <p id="hasil"></p>
+
+    <script>
+      // IF "hungry"
+      //      DO "eat"
+      // DISPLAY "I am happy"
+
+      // if (hungry) {
+      //     console.log("eat");
+      // }
+      // console.log("I am happy");
+
+      function cekLapar() {
+        let kondisi = document.getElementById("kondisi").value;
+
+        if (kondisi === "lapar") {
+          hasil = "waktu makan";
+        } else if (kondisi === "kenyang") {
+          hasil = "bukan waktu makan";
+        } else {
+          hasil = "boleh nyemil";
+        }
+        document.getElementById("hasil").innerHTML = hasil;
+      }
+    </script>
+  </body>
+</html>

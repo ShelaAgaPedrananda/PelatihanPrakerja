@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Event</title>
+  </head>
+  <body>
+    <button id="tombol" onclick="ganti_nama()">Klik Saya</button>
+    <div id="hasil"></div>
+
+    <script>
+      function tampilkan_nama() {
+        document.getElementById("hasil").innerHTML = "<h3>Nama Saya Fox</h3>";
+      }
+
+      function ganti_nama() {
+        document.getElementById("tombol").innerHTML = "Tombol";
+      }
+    </script>
+  </body>
+</html>

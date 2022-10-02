@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Function</title>
+  </head>
+
+  <body>
+    <script>
+      function hitungGrade(nilai) {
+        let grade = "";
+        if (nilai >= 90) {
+          grade = "A";
+        } else if (nilai >= 80) {
+          grade = "B";
+        } else if (nilai >= 70) {
+          grade = "C";
+        } else if (nilai >= 60) {
+          grade = "D";
+        } else {
+          grade = "E";
+        }
+        return grade;
+      }
+      let nilai = prompt("Masukkan Nilai: ");
+      document.write(`Grade: ${hitungGrade(nilai)}`);
+    </script>
+  </body>
+</html>

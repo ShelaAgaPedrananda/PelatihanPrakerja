@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EVENT</title>
+  </head>
+  <body>
+    <h1>Penggunaan Event</h1>
+
+    <button id="tombol" onclick="ganti_nama()">Klik saya</button>
+    <div id="hasil"></div>
+
+    <script>
+      function tampilkan_nama() {
+        document.getElementById("hasil").innerHTML = "<h3>tampilkan_nama<h3>";
+      }
+
+      function ganti_nama() {
+        document.getElementById("tombol").innerHTML = "Tombol";
+      }
+    </script>
+  </body>
+</html>

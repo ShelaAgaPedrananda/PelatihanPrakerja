@@ -1,0 +1,31 @@
+READ and STORE "first number"
+READ and STORE "second number"
+COMPUTE "first number" added by "second number"
+STORE previous computation result
+DISPLAY the computation result
+
+BACA dan SIMPAN "angka pertama"
+BACA dan SIMPAN "angka kedua"
+KALKULASIKAN "angka pertama" ditambah dengan "angka kedua"
+SIMPAN hasil perhitungan sebelumnya
+TAMPILKAN hasil perhitungannya
+
+==========================================================
+
+STORE "width" with any value
+STORE "height" with any value
+STORE "area" without any value
+CALCULATE "width" times "height"
+SET "area" value with calculation result
+DISPLAY "area"
+
+
+SIMPAN "panjang" dengan nilai berapapun
+SIMPAN "lebar" dengan nilai berapapun
+SIMPAN "luas" tanpa nilai
+HITUNG "panjang" kali "lebar"
+SIMPAN hasil perhitungan ke dalam "luas"
+TAMPILKAN "luas"
+
+
+

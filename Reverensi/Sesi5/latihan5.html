@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object</title>
+  </head>
+  <body>
+    <div id="hasil"></div>
+
+    <script>
+      let manusia = {
+        nama: "Bambang",
+        usia: 17,
+        lokasi: "Palembang",
+      }; // object, menggunakan kurung kurawal {}
+      document.getElementById("hasil").innerHTML =
+        // "Nama: " + manusia.nama + ", Usia: " + manusia.usia + " tahun.";
+        `Nama: ${manusia.nama}, Usia: ${manusia.usia} tahun.`;
+    </script>
+  </body>
+</html>
